@@ -18,6 +18,7 @@ public class SlotDef
     public int player;      // player number of a hand
     public Vector3 pos;         // pos derived from x, y, & multiplier
 }
+
 public class BartokLayout : MonoBehaviour
 {
     public PT_XMLReader xmlr;  // Just like Deck, this has an PT_XMLReader
@@ -95,5 +96,4 @@ public class BartokLayout : MonoBehaviour
         }
     }
 }
-
 
